@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "GitOps Deployment using ArgoCD"
+    return "GitOps Deployment using ArgoCD update v1"
 
 app.run(host="0.0.0.0",port=5000)

@@ -6,6 +6,6 @@ spec:
   selector:
     app: gitops-app
   ports:
-  - port: 80
-    targetPort: 5000
+    - port: 80
+      targetPort: 5000
   type: NodePort

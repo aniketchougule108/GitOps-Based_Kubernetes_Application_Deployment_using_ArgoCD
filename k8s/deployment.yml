@@ -13,7 +13,8 @@ spec:
         app: gitops-app
     spec:
       containers:
-      - name: gitops-container
-        image: chouguleaniket/gitops-app:latest
+      - name: gitops-app
+        image: chouguleaniket/gitops-app:v1
         ports:
         - containerPort: 5000
+
